@@ -26,7 +26,7 @@ function test(req, res, next) {
   res.status(200).json({ data: { test:'test' } });
 }
 
-router.post('/test', test);
+router.get('/test', test);
 
 
 // Express error handlers
